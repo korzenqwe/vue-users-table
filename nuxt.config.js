@@ -27,6 +27,10 @@ export default {
   plugins: [
   ],
 
+  serverMiddleware: [
+    '~/server-middleware/users.js'
+  ],
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -40,6 +44,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios'
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
