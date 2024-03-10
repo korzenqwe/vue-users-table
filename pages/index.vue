@@ -99,7 +99,7 @@ export default {
     this.roleFilter = this.$route.query.role || "";
     this.blockedFilter = this.$route.query.blocked || false;
     this.ageRange = [
-      this.$route.query.ageMin || 18,
+      this.$route.query.ageMin || 0,
       this.$route.query.ageMax || 100,
     ];
 
